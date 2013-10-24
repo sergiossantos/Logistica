@@ -46,4 +46,4 @@ catch(PDOException $e)
 }
 
 # Pages
-$page = isset($_GET['page']) ? mysql_real_escape_string($_GET['page']) : "";
+$page = isset($_GET['page']) ? mysql_real_escape_string($_GET['page']) : "index";

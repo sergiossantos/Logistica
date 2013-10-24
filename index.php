@@ -23,7 +23,7 @@ include_once('app/default.php');
     <body>
      <!-- Start codin' :) -->
      <div class="container">
-      
+      <?php include_once(BASE_PATH . 'pages/' . $page . '.php'); ?>
     </div>
     <!-- /.container -->
 
