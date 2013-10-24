@@ -34,6 +34,7 @@ else
     define('BASE_URL', 'http://localhost/padrao/');
 }
 
+# Definir o caminho base para a pasta root
 define('BASE_PATH', dirname(__FILE__) . '/../');
 
 try
@@ -46,4 +47,9 @@ catch(PDOException $e)
 }
 
 # Pages
-$page = isset($_GET['page']) ? mysql_real_escape_string($_GET['page']) : "index";
+$page = isset($_GET['page']) && is_file(BASE_PATH . '/pages/' . mysql_real_escape_string($_GET['page']) . '.php') ? mysql_real_escape_string($_GET['page']) : "index";
+
+
+# Inclusão e instanciamento das classes
+include_once BASE_PATH . '/app/classes/Utils.php';
+$Utils = new Utils();

@@ -1,7 +1,7 @@
 padrao-de-projetos-php
 ======================
 
-Este é um padrão básico de pastas e estrutura para projetos PHP com Bootstrap 3 e WideImage!
+Este é um padrão básico de pastas e estrutura para projetos PHP com PDO, Bootstrap 3 e WideImage!
 
 Eu utilizo este padrão para todos os meus projetos, visando em manter uma boa qualidade de estrutura para futuras manutenções se preciso.
 
@@ -20,6 +20,9 @@ A estrutura deste projeto é a seguinte:
 &nbsp;&nbsp;&nbsp;&nbsp;/pages ( todas as paginas )<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;/temp ( aqui fica por exemplo, fotos de destaque, fotos de usuarios, etc…)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Index.php<br/>
+
+
+Todas as pastas contém arquivos README, então é só acessá-las para entender melhor seu funcionamento.
 
 Qualquer dúvida entre em contato comigo pelo git ou por e-mail: guilhermetoti@gmail.com
 
