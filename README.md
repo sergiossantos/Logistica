@@ -27,7 +27,4 @@ A estrutura deste projeto é a seguinte:
 
 Todas as pastas contém arquivos README, então é só acessá-las para entender melhor seu funcionamento.
 
-Qualquer dúvida entre em contato comigo pelo git ou por e-mail: guilhermetoti@gmail.com
 
-www.gtsites.com.br
->>>>>>> 1bd5814f76ac9f4eaa19551dec4e73bbffb840e7
